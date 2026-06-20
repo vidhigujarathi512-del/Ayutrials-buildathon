@@ -69,7 +69,7 @@ AyuTrials is an AI-powered platform that simplifies clinical trial protocols, pe
 
 ---
 
-## Team Members
+## Team Members - 
 
 * [ vidhi gujarathi ](https://github.com/vidhigujarathi512-del)
 
