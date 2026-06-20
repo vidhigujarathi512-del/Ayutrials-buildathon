@@ -5,7 +5,7 @@ from pydantic import BaseModel
 import spacy
 from gtts import gTTS
 
-app = FastAPI(title="EquiMatch Backend AI Pipeline")
+app = FastAPI(title="Ayutrails(equimatch) Backend AI Pipeline")
 
 @app.get("/")
 def home():
