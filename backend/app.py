@@ -7,6 +7,13 @@ from gtts import gTTS
 
 app = FastAPI(title="EquiMatch Backend AI Pipeline")
 
+@app.get("/")
+def home():
+    return {
+        "message": "AyuTrials Backend is Live",
+        "docs": "/docs"
+    }
+
 # Load NLP model
 try:
     nlp = spacy.load("en_core_web_sm")
